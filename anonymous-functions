@@ -1,0 +1,19 @@
+
+const button = document.querySelector('button');
+
+function clickAndHandle(){
+    console.log('Button was clicked!')
+}
+
+if (button){
+    button.addEventListener('click', clickAndHandle);
+}
+
+// other way of writing this code... see below
+
+if (button){
+    button.addEventListener('click', () => {
+        console.log('Button was clicked!')
+    });
+}
+
