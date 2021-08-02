@@ -1,6 +1,11 @@
 # IDE
 *.idea
 
+# Map and compiled files
+*.js.map
+*js
+
+
 # Compiled class file
 *.class
 
