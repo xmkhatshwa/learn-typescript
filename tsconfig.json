@@ -68,7 +68,7 @@
     // "inlineSources": true,                       /* Emit the source alongside the sourcemaps within a single file; requires '--inlineSourceMap' or '--sourceMap' to be set. */
 
     /* Experimental Options */
-    // "experimentalDecorators": true,              /* Enables experimental support for ES7 decorators. */
+     "experimentalDecorators": true,              /* Enables experimental support for ES7 decorators. */
     // "emitDecoratorMetadata": true,               /* Enables experimental support for emitting type metadata for decorators. */
 
     /* Advanced Options */
@@ -76,13 +76,8 @@
     "forceConsistentCasingInFileNames": true        /* Disallow inconsistently-cased references to the same file. */
   },
   "exclude": [
-    "function-types.ts",
-    "node_modules",
-    "function-types.ts",
-    "simple-object.ts"
-  ]
-  ,
-    "include": [
+    "node_modules"
+  ], "include": [
       "src/*"
    ]
 }
